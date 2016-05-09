@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SEPTIMA APLICACION</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temas7.min.css">
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css">
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css">
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<link rel="stylesheet" type="text/css" href="visor/engine1/style.css" />
+	<script type="text/javascript" src="visor/engine1/jquery.js"></script> 
+    
+    
+    
+    
+    
+<body onLoad="MM_preloadImages('imagenes/normal_05-04-2010-05.jpg','imagenes/5-de-mayo-41.jpg','imagenes/Diaz en puebla.jpg')"><div data-role="page" id="principal" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+   <h1>BATALLA DEL 5 DE MAYO</h1>
+  </div> 
+  <!-- Start WOWSlider.com BODY section -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+<li><img src="visor/data1/images/5demayo.jpg" alt="5-de-mayo" title="5-de-mayo" id="wows1_0"/></li>
+<li><img src="visor/data1/images/01guerraindep.jpg" alt="01-guerra-indep" title="01-guerra-indep" id="wows1_1"/></li>
+<li><img src="visor/data1/images/5demayo_0.jpg" alt="5demayo" title="5demayo" id="wows1_2"/></li>
+<li><img src="visor/data1/images/5demayo1.jpg" alt="5-de-mayo1" title="5-de-mayo1" id="wows1_3"/></li>
+<li><img src="visor/data1/images/1862mayo5a.jpg" alt="1862-Mayo5a" title="1862-Mayo5a" id="wows1_4"/></li>
+</ul>
+</div>
+<div class="ws_bullets">
+<div>
+<a href="#" title="5-de-mayo"><img src="visor/data1/tooltips/5demayo.jpg" alt="5-de-mayo"/>1</a>
+<a href="#" title="01-guerra-indep"><img src="visor/data1/tooltips/01guerraindep.jpg" alt="01-guerra-indep"/>2</a>
+<a href="#" title="5demayo"><img src="visor/data1/tooltips/5demayo_0.jpg" alt="5demayo"/>3</a>
+<a href="#" title="5-de-mayo1"><img src="visor/data1/tooltips/5demayo1.jpg" alt="5-de-mayo1"/>4</a>
+<a href="#" title="1862-Mayo5a"><img src="visor/data1/tooltips/1862mayo5a.jpg" alt="1862-Mayo5a"/>5</a>
+</div>
+</div>
+<span class="wsl"><a href="http://wowslider.com">Joomla Carousel</a> by WOWSlider.com v4.8</span>
+	<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+<div>
+     <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+     <li class="ui-first-child ui-last-child">
+     <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>INICIO DEL CONFLICTO</h2>
+        </a>
+       </li>
+      
+      
+     <li class="ui-first-child ui-last-child">
+       <a href="#pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>LUGAR DONDE SE DESARROLLO LA BATALLA</h2>
+       </a>
+     </li>
+    <li class="ui-first-child ui-last-child">
+       <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>COMO SE CELEBRA ACTUALMENTE</h2>
+       </a>
+    </li>
+
+    <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+    <h1>BATALLA DE ATLIXCON</h1>
+     <center><img src="imagenes/1862-Mayo5a.jpg"   width="60%" height="50%"></center> 
+       <P>La Batalla de Atlixco tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las Traperas en Atlixco 
+      en el estado de Puebla, México, entre elementos del ejército mexicano de la república, al mando de los generales Antonio 
+      Carvajal y Tomás O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general José María 
+      Cobos y de Leonardo Márquez, compuesta de soldados conservadores mexicanos en apoyo de envío de refuerzos para llevar a 
+      cabo la Batalla de Puebla, durante la Segunda Intervención Francesa en México.
+      Esta batalla culminó con una victoria republicana y debido a esto el grupo conservador de Márquez no pudo lograr su objetivo 
+      de auxiliar a las tropas francesas del Conde de Lorencez en la batalla de Puebla.
+       </P>
+       </div>
+       </div>
+    
+<div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+    <h1>PERSONAJES QUE PARTICIPARON</h1>
+
+       <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+       <h1>IGNACIO ZARAGOZA</h1>
+       <center><img src="imagenes/220px-Ignacio_Zaragoza.png"  width="120" height="160"></center>
+       <P> (24 de marzo de 1829-8 de septiembre de 1862) fue un militar mexicano reconocido como el héroe de la Batalla de Puebla,
+       que tuvo lugar el 5 de mayo de 1862
+       </P>
+       </div>
+       </div>
+           <div data-role="main" class="ui-content">
+           <div data-role="collapsible" data-content-theme="false">
+           <h1>PORFIRIO DIAZ</h1>
+           <center><img src="imagenes/000592512.jpg"  width="120" height="160"></center>
+          <P>Antes de asumir la presidencia fue un militar destacado, quién brilló por su participación en la Segunda Intervención
+              Francesa en México. Combatió en la Batalla de Puebla, el Sitio de Puebla, la Batalla 
+              de Miahuatlán y en la Batalla de la Carbonera
+           </P>
+           </div>
+           </div>
+             <div data-role="main" class="ui-content">
+             <div data-role="collapsible" data-content-theme="false">
+             <h1>MIGUEL NEGRETE</h1>
+             <center><img src="imagenes/000592513.jpg"  width="120" height="160"></center>
+             <P>
+             (Tepeaca, Puebla, 8 de mayo de 1824 — Ciudad de México, 5 de enero de 1897) fue un militar mexicano, participó durante 
+             las guerras civiles del siglo XIX, así como durante las intervenciones de Estados Unidos y Francia. Fue ministro de 
+             Guerra durante la presidencia de Benito Juárez.
+             </P>
+
+             </div>
+             </div>
+    </div>
+  </div>
+
+    <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+    <h1>CONCLUSION DE LA BATALLA</h1>
+     <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image23','','imagenes/Diaz en puebla.jpg',1)"><img src="imagenes/5-de-mayo1.jpg" width="250" height="200" id="Image23"></a></center>
+<p>
+  El saldo final de la batalla fue de 476 muertos y 345 heridos del lado francés, así como 83 muertos, cerca de 131 heridos 
+  y 12 desaparecidos para el Ejército de Oriente. A las 7 de la noche del día 6 de mayo arribaron a Puebla el general
+  Antillón y sus tropas; Zaragoza esperaba un nuevo ataque de Lorencez, pero éste, el día 8 de mayo, dispuso la retirada
+  hasta San Agustín del Palmar, siendo "saludado" por la artillería republicana y la Banda de Guerra de los Carabineros, 
+  quienes tocaron "Escape".
+</p>
+
+<a href="https://es.wikipedia.org/wiki/Batalla_de_Puebla">Mas informacion</a>
+
+    </div>
+  </div>
+       
+</div>
+
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+       <img src="imagenes/mdpi.png"  width="46" height="46">
+    </div>
+    <div>
+      <h4>APLICACION SIETE</h4>
+      <h4>WENDY FLORES RONCO</h4>
+    </div>
+</div>
+</div>
+
+<div data-role="page" id="pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="a">
+    <h1>INICIO DEL CONFLICTO</h1>
+    </div>
+   <div data-role="content" align="center">
+    <div>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image22','','imagenes/5-de-mayo-41.jpg',1)"><img src="imagenes/5-de-mayo.jpg" width="220" height="170" id="Image22"></a>
+<p>
+  
+  Debido principalmente a la cantidad de deudas, , Inglaterra y España subscribieron el Convenio de Londres, 
+  por el cual se comprometieron a intervenir por el uso de la fuerza en México para reclamar sus derechos como 
+  acreedores, mientras tanto el Presidente Benito Juárez declaró suspendidos los compromisos adquiridos y aplazó 
+  pagar la deuda a las naciones europeas. Tras desembarcar en Veracruz, España e Inglaterra aceptaron las explicaciones 
+  mexicanas dadas en los Tratados de La Soledad, los cuales tenían como fundamento, el respeto a la soberanía territorial, 
+  el reconocimiento de las naciones acreedoras al Estado Mexicano, la entrada al terreno de las negociaciones para 
+  llegar a acuerdos en común, que beneficiaría tanto a la República Mexicana, como a los intereses de las potencias 
+  invasoras, y por último, se permitiría que los soldados de los tres países se establecieran en las ciudades mexicanas 
+  de Orizaba, Córdoba y Tehuacán durante las negociaciones, debido a lo malsano del clima imperante en el puerto de Veracruz; 
+  en caso contrario, los soldados de las tres potencias se retirarían a las costas de Veracruz para así comenzar las hostilidades.
+</p> 
+
+
+
+    </div>
+    </div> 
+    
+   <div data-role="footer" data-theme="a" data-position="fixed">
+   <center><img src="imagenes/mdpi.png"  width="46" height="46"></center>
+     <h4>APLICACION SIETE, WFR</h4>
+   </div>
+ </div>
+ </div>
+ 
+ 
+<div data-role="page" id="pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true"  data-back-btn-text="regresar" data-back-btn-theme="a">
+    <h1>DONDE SE DESARROLO LA BATALLA</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+       <center><img src="imagenes/colling-attack.jpg"  width="60%" height="50%"></center> 
+      <p>El 4 de mayo, los exploradores mexicanos volvieron con noticias de que una columna de 
+conservadores a caballo, al mando de Leonardo Márquez y José María Cobos, marchaba por la zona de 
+Atlixco para unirse con las fuerzas de Lorencez en el ataque a Puebla. Zaragoza
+</P>
+<iframe width="50%" height="50%" src="https://www.youtube.com/embed/64-fhQZ3-UM" frameborder="0" allowfullscreen></iframe>
+   
+</div>
+    </div>
+   <div data-role="footer" data-theme="a" data-position="fixed">
+       <center><img src="imagenes/mdpi.png"  width="46" height="46"></center>
+      <h4>APLICACION SIETE,WFR</h4>
+  </div>
+ </div>
+</div>
+
+
+<div data-role="page" id="pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="a">
+    <h1>COMO SE CELEBRA ACTUALMENTE</h1>
+    </div>
+   <div data-role="content" align="center">
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/normal_05-04-2010-05.jpg',1)"><img src="imagenes/fuerte-de-loreto-puebla.jpg" width="250" height="200" id="Image21"></a>
+<p> Se llevó también una representación de la batalla del 5 de mayo de 1862 donde el
+  Capitán Ignacio Zaragoza dirigió al ejercito Mexicano para derrotar al ejèrcito Francés. 
+  La escenificación se realizó en las inmediaciones del campo militar número 25-A de Puebla, 
+  donde se representó la batalla en la que participaron cinco mil 534 mexicanos , mientras que 
+  del lado del ejército francés fue un contigente de cinco mil 368 elementos.
+</p>
+
+<div data-role="footer" data-theme="a" data-position="fixed">
+      <center><img src="imagenes/mdpi.png"  width="46" height="46"></center>
+     <h4>APLICACION SIETE, WFR</h4>
+ </div>
+</div>
+   <div data-role="footer" data-theme="a" data-position="fixed">
+       <center><img src="imagenes/mdpi.png"  width="46" height="46"></center>
+      <h4>APLICACION SIETE,WFR</h4>
+  </div>
+</div>
+</div>
+</body>
+</html>
